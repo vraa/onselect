@@ -1,5 +1,5 @@
-onselect
-========
+onSelect - JQuery Plugin
+========================
 
 Let's say you have this HTML code.
 
