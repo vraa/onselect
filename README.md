@@ -23,7 +23,8 @@ Above code works as expected, as long as the user uses mouse to select a value. 
 In the above example, it is approriate to reload the page once the user completely done with selecting a new value. I.e. The Firefox behavior is needed in Chrome/IE too.
 
 So, use this JQuery plugin to achieve this. After including the plug-in, bind the events as below:
-
+	
+	<script src="onselect.js"></script>
 	$('#countries').onSelect(function(){
 		// Reload page
 	});
